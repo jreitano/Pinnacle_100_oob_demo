@@ -14,5 +14,6 @@
   "kconfig.zephyr.base": "${workspaceRoot}/../zephyr",
   "kconfig.zephyr.board": {
     "board": "pinnacle_100_dvk"
-  }
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/oob_demo"
 }
