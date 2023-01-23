@@ -9,10 +9,11 @@
   "setup_static_partitions_windows": "copy ${workspaceRoot}\\..\\modules\\zephyr_lib\\mcuboot_config\\pm_static.pinnacle100.yml ${workspaceRoot}\\oob_demo\\pm_static.yml",
   "clear_static_partitions_unix": "rm -f ${workspaceRoot}/oob_demo/pm_static.yml",
   "clear_static_partitions_windows": "del ${workspaceRoot}\\oob_demo\\pm_static.yml",
-  "C_Cpp.errorSquiggles": "Disabled",
+  "C_Cpp.errorSquiggles": "disabled",
   "cmake.configureOnOpen": false,
   "kconfig.zephyr.base": "${workspaceRoot}/../zephyr",
   "kconfig.zephyr.board": {
     "board": "pinnacle_100_dvk"
-  }
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/oob_demo"
 }
